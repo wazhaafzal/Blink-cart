@@ -3,13 +3,12 @@ o# ☕ Chai-ography 🎯
 
 ## Basic Details
 
-**Team Name:** [Your Team Name]
+**Team Name:** Pour-Overs
 
 ### Team Members
 
-- **Team Lead:** [Name] - [College]
-- **Member 2:** [Name] - [College]
-- **Member 3:** [Name] - [College]
+- **Team Lead:** Wazha afzal Koyappathodi - College of Engineering Chengannur
+- **Member 2:** Shifa K p - College Of Engineering Chengannur
 
 ---
 
