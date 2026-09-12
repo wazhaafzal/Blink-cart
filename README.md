@@ -160,7 +160,7 @@ The live dashboard will open and display the pouring height graph, statistics, a
 
 ### 2. Statistics Dashboard
 
-![Statistics Dashboard](statistics.png)
+![Statistics Dashboard](statistics.jpeg)
 
 **Caption:** Dashboard displaying peak height, number of pulls, and pouring duration.
 
