@@ -1,4 +1,4 @@
-# ☕ Chai-ography 🎯
+o# ☕ Chai-ography 🎯
 ### *Measuring the art of the pour.*
 
 ## Basic Details
@@ -167,7 +167,7 @@ The live dashboard will open and display the pouring height graph, statistics, a
 
 ### 3. Pouring Character
 
-![Pouring Character](screenshots/character.png)
+![Pouring Character](vid 3.mp4)
 
 **Caption:** Final pouring character/sticker generated based on the measured pouring style.
 
