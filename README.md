@@ -229,7 +229,8 @@ Pouring Character / Sticker
 
 ## Components
 
-![Components](images/components.jpg)
+![Components](pic 1.jpeg)
+![Components](pic 3.jpeg)
 
 **Components shown:** Arduino, HC-SR04 ultrasonic sensor, jumper wires, USB cable, and tea-pouring setup.
 
