@@ -236,7 +236,9 @@ Pouring Character / Sticker
 
 ## Build Process
 
-![Build Process](images/build.jpg)
+![Build Process](build1.jpeg)
+![Build Process](build2.jpeg)
+![Build Process](build3.jpeg)
 
 **Description:** The ultrasonic sensor is positioned at a fixed location above the marked pouring area and connected to the Arduino. The Arduino is then connected to a laptop running the Python dashboard.
 
