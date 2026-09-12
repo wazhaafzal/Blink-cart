@@ -270,6 +270,8 @@ The video demonstrates the complete working of Chai-ography, including ultrasoni
 - HC-SR04 sensor interfacing
 - Pull detection logic
 - Hardware setup
+- Project documentation
+- Demo setup and presentation
 
 ### [Team Member 2]
 
@@ -277,15 +279,8 @@ The video demonstrates the complete working of Chai-ography, including ultrasoni
 - Serial communication
 - Live graph implementation
 - Data visualization
-
-### [Team Member 3]
-
-- Project documentation
 - Testing and calibration
 - UI/sticker design
-- Demo setup and presentation
-
----
 
 # 💡 Innovation & Uniqueness
 
