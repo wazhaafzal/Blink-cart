@@ -242,7 +242,7 @@ Pouring Character / Sticker
 
 ## Final Product
 
-![Final Product](images/final.jpg)
+![Final Product](final_product.jpg)
 
 **Description:** Completed Chai-ography setup ready for a live tea-pouring demonstration.
 
@@ -252,7 +252,7 @@ Pouring Character / Sticker
 
 ## Video
 
-**Demo Video:** [Add your demo video link here]
+**Demo Video:** https://drive.google.com/file/d/1O8NoyJEEEQen_FWka8s7MVSt9LB2m-bA/view?usp=drivesdk
 
 The video demonstrates the complete working of Chai-ography, including ultrasonic sensing, live height measurement, pull detection, statistics, and the final pouring character/sticker.
 
