@@ -154,13 +154,13 @@ The live dashboard will open and display the pouring height graph, statistics, a
 
 ### 1. Live Pouring Graph
 
-![Live Pouring Graph](output_chaya.jpeg)
+![Live Pouring Graph](pouring.jpeg)
 
 **Caption:** Live graph showing the change in pouring height during the tea-pouring action.
 
 ### 2. Statistics Dashboard
 
-![Statistics Dashboard](screenshots/statistics.png)
+![Statistics Dashboard](statistics.png)
 
 **Caption:** Dashboard displaying peak height, number of pulls, and pouring duration.
 
