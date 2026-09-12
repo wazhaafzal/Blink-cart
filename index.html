@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chai-ography ☕ | Enter Our Chaos</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@400;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:#120b08;color:#fff8ed;
+  font-family:'Fredoka',Arial,sans-serif;overflow-x:hidden;
+}
+.slide{
+  min-height:100vh;position:relative;display:flex;flex-direction:column;
+  justify-content:center;padding:7vh 7vw;overflow:hidden;
+  border-bottom:2px solid rgba(255,255,255,.08);
+}
+.slide::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle at 15% 20%,rgba(255,184,77,.16),transparent 28%),
+             radial-gradient(circle at 85% 80%,rgba(255,107,53,.12),transparent 30%);
+}
+.content{position:relative;z-index:2;max-width:1200px;width:100%;margin:auto}
+h1,h2{font-family:'Bungee',Impact,sans-serif;line-height:1.02}
+h2{font-size:clamp(2.3rem,6vw,5.5rem)}
+p{font-size:clamp(1.1rem,2vw,1.6rem);line-height:1.55}
+.small{font-size:1rem;opacity:.7}
+.tag{display:inline-block;padding:.45rem .8rem;border:1px solid #fff;border-radius:999px;margin-bottom:1.2rem}
+.hero h1{font-family:"Comic Sans MS","Comic Sans",cursive;font-size:clamp(4rem,11vw,10rem);max-width:1000px}
+.enter{
+  position:absolute;right:7vw;bottom:7vh;background:#ffe08a;color:#24120a;
+  border:0;border-radius:18px;padding:18px 26px;font:700 1.2rem "Comic Sans MS",cursive;
+  cursor:pointer;box-shadow:0 10px 0 #8f4f1d;transition:.15s;
+}
+.enter:hover{transform:translateY(4px);box-shadow:0 6px 0 #8f4f1d}
+.emoji{font-size:1.2em}
+.center{text-align:center}
+.story{max-width:1050px}
+.quote{
+  font-size:clamp(1.8rem,4vw,3.7rem);font-weight:700;line-height:1.25;
+  margin:2rem 0;
+}
+.accent{color:#ffd27a}
+.video{
+  width:min(900px,100%);aspect-ratio:16/9;margin:2rem auto;border-radius:24px;
+  border:2px dashed rgba(255,255,255,.4);background:#21130e;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  overflow:hidden;
+}
+.video video{width:100%;height:100%;object-fit:cover}
+.video .placeholder{padding:2rem;opacity:.7}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.media{
+  width:100%;border-radius:24px;background:#21130e;border:2px dashed rgba(255,255,255,.3);
+  min-height:330px;display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.media img{width:100%;height:100%;object-fit:cover}
+.character{
+  text-align:center;padding:2rem;border-radius:28px;background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12)
+}
+.character img{width:130px;height:130px;object-fit:contain;margin-bottom:1rem}
+.birth{align-items:center;text-align:center}
+.birth h2{font-size:clamp(3rem,9vw,8rem)}
+.actors{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:2.5rem}
+.actor{padding:1.4rem;border-radius:22px;background:rgba(255,255,255,.07);text-align:center}
+.actor .icon{font-size:4rem;margin-bottom:.8rem}
+.actor h3{font-size:1.25rem}
+.setup img{max-height:430px;width:100%;object-fit:contain;border-radius:24px}
+.setup-note{margin:1.3rem 0 3rem}
+.wave{
+  font-size:clamp(4rem,10vw,9rem);font-weight:700;
+  animation:pulse 1.5s infinite ease-in-out;
+}
+@keyframes pulse{0%,100%{transform:scaleX(.96);opacity:.75}50%{transform:scaleX(1);opacity:1}}
+.lift{animation:lift .75s cubic-bezier(.7,0,.2,1)}
+@keyframes lift{from{transform:translateY(0)}to{transform:translateY(-100vh)}}
+@media(max-width:800px){
+ .two{grid-template-columns:1fr}.actors{grid-template-columns:1fr 1fr}
+ .slide{padding:6vh 5vw}.enter{right:5vw;bottom:5vh}
+}
+@media(max-width:500px){.actors{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+
+<!-- 1 -->
+<section class="slide hero" id="s1">
+  <div class="content">
+    <h1>HEYY,<br>YOU FOUND US</h1>
+  </div>
+  <button class="enter" onclick="enterChaos()">ENTER OUR CHAOS ☕</button>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+ <div class="content story">
+   <span class="tag">THE BEGINNING 👀</span>
+   <h2>Wayy Before Everything Happened</h2>
+   <div class="video">
+     <!-- Replace with your first video -->
+     <div class="placeholder">🎬 <b>FIRST VIDEO</b><br>Replace this box with your first project video.<br><small>Example: assets/video1.mp4</small></div>
+   </div>
+   <p class="quote">“We were in awe while he was unknowingly showing off his skills.”</p>
+   <p class="accent">This was what inspired us to begin our useless journey. 😭☕</p>
+ </div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+ <div class="content center">
+   <span class="tag">THE MOMENT OF REALIZATION 🤯</span>
+   <p class="quote">
+   While he was lifting the tea higher and higher like the tea was doing its own workout.
+   Somehow through all this flying, steaming and pouring, not a single drop seemed to panic —
+   and that made us gape in awe. 🫖✨
+   </p>
+   <p class="quote">And amidst all of this, the person himself didn't recognise his skill.</p>
+   <p class="quote accent">So why not we consider this <b>unrecognized skill?</b> 👀</p>
+ </div>
+</section>
+
+<!-- 4 -->
+<section class="slide birth">
+ <div class="content">
+   <div class="tag">AND THEN… 💥</div>
+   <h2>Hence the birth of<br><span class="accent">ചായ-ography ☕</span></h2>
+   <div class="media" style="max-width:600px;margin:3rem auto 0">
+     <div class="placeholder">🫖<br><b>TEA POURING STICKER / GIF</b><br>Replace with your sticker image or GIF.</div>
+   </div>
+ </div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+ <div class="content story">
+   <span class="tag">THE CHAOS BEGINS 🛠️</span>
+   <h2>From “What if” to “We Built It”</h2>
+   <p class="quote">
+     What started as a “let’s just try this once” quickly turned into several late-night sessions
+     of <span class="accent">building, testing, breaking, fixing</span>, and doing it all over again.
+   </p>
+   <p>
+     We stayed up working on ideas we never thought would take this long — honestly,
+     we’ve never stayed up this late even for our semester exams. 😭
+   </p>
+   <p style="margin-top:1.5rem">
+     But somewhere between the midnight debugging, random ideas, and
+     <b>“one last change” at 3 AM</b>, the project slowly started coming to life. ☕💻
+   </p>
+ </div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+ <div class="content">
+   <span class="tag">THE CAST 🎬</span>
+   <h2>The main actors of our project</h2>
+   <div class="actors">
+     <div class="actor"><div class="icon">📡</div><h3>HC-SR04</h3><p class="small">Ultrasonic distance sensor</p></div>
+     <div class="actor"><div class="icon">🔵</div><h3>Arduino UNO</h3><p class="small">The brain of the setup</p></div>
+     <div class="actor"><div class="icon">💻</div><h3>Laptop</h3><p class="small">Live dashboard & serial communication</p></div>
+     <div class="actor"><div class="icon">☕</div><h3>Tea Glass</h3><p class="small">The star of the show</p></div>
+   </div>
+   <p class="small" style="margin-top:2rem">Swap these cards for the actual component photos you shared.</p>
+ </div>
+</section>
+
+<!-- 7 -->
+<section class="slide setup">
+ <div class="content">
+   <span class="tag">ENGINEERING, APPARENTLY 😭</span>
+   <h2>“WE HAD A PLAN.<br>THE PLAN HAD OTHER PLANS”</h2>
+
+   <div class="media" style="margin-top:2rem">
+     <div class="placeholder">📷 <b>FIRST SETUP PHOTO</b><br>Replace with your initial setup image.</div>
+   </div>
+   <p class="setup-note">It looked perfect on paper.<br>Then we actually built it.<br>And that's when reality decided to join the project. 💀</p>
+
+   <div class="media">
+     <div class="placeholder">📷 <b>FINAL SETUP PHOTO</b><br>Replace with your final setup image.</div>
+   </div>
+   <p class="setup-note accent">After a few experiments, adjustments, and questionable engineering decisions,
+     we finally arrived at a setup that worked reliably. 🔧✨</p>
+ </div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+ <div class="content center story">
+   <p class="quote">Before we trusted our setup with tea, we decided to play it safe and test with <span class="accent">water.</span> 💧</p>
+   <div class="video">
+     <div class="placeholder">🎬 <b>SECOND VIDEO</b><br>Replace this box with your second video.<br><small>Example: assets/video2.mp4</small></div>
+   </div>
+   <p>But hey, that's what testing is for. We learned, adjusted, and tried again… because apparently even water needed debugging. 😭</p>
+ </div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+ <div class="content center story">
+   <span class="tag">THE UNEXPECTED FEATURE ☕📈</span>
+   <h2>FROM POUT TO ECG</h2>
+   <p class="quote">Turns out, tea doesn't just have a taste — <span class="accent">it has a waveform.</span></p>
+   <div class="video">
+     <div class="placeholder">🎬 <b>THIRD VIDEO</b><br>Replace this box with your third video.<br><small>Example: assets/video3.mp4</small></div>
+   </div>
+   <p>We may have started with a cup of water, but somewhere along the way, we accidentally gave chai its own ECG. ☕📈</p>
+   <div class="wave">〰〰〰〰〰</div>
+ </div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+ <div class="content center story">
+   <p class="small">(At the venue)</p>
+   <h2>Registration counter</h2>
+   <div class="video">
+     <div class="placeholder">🎬 <b>VENUE VIDEO</b><br>Replace this box with your registration-counter video.<br><small>Example: assets/venue.mp4</small></div>
+   </div>
+ </div>
+</section>
+
+<script>
+function enterChaos(){
+  document.getElementById('s1').classList.add('lift');
+  setTimeout(()=>document.querySelectorAll('.slide')[1].scrollIntoView({behavior:'smooth'}),350);
+}
+</script>
+</body>
+</html>
