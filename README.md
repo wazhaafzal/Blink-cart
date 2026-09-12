@@ -204,7 +204,7 @@ Pouring Character / Sticker
 
 ### Circuit
 
-![Circuit](images/circuit.png)
+![Circuit](circuit.png)
 
 **Caption:** Connection between the HC-SR04 ultrasonic sensor and Arduino.
 
@@ -219,7 +219,7 @@ Pouring Character / Sticker
 
 ### Schematic
 
-![Schematic](images/schematic.png)
+![Schematic](schematic.png)
 
 **Caption:** Hardware schematic showing the sensor-to-Arduino connections.
 
