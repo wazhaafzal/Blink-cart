@@ -242,7 +242,7 @@ Pouring Character / Sticker
 
 ## Final Product
 
-![Final Product](final_product.jpg)
+![Final Product](final_product.jpeg)
 
 **Description:** Completed Chai-ography setup ready for a live tea-pouring demonstration.
 
