@@ -154,7 +154,7 @@ The live dashboard will open and display the pouring height graph, statistics, a
 
 ### 1. Live Pouring Graph
 
-![Live Pouring Graph](pouring.jpeg)
+![Live Pouring Graph](pouring_graph.jpeg)
 
 **Caption:** Live graph showing the change in pouring height during the tea-pouring action.
 
