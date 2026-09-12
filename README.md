@@ -166,7 +166,7 @@ The live dashboard will open and display the pouring height graph, statistics, a
 
 ### 3. Pouring Character
 
-![Pouring Character](vid 3.mp4)
+![Pouring Character](pouring.jpeg)
 
 **Caption:** Final pouring character/sticker generated based on the measured pouring style.
 
