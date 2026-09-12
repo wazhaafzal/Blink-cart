@@ -1,4 +1,4 @@
-o# ☕ Chai-ography 🎯
+# ☕ Chai-ography 🎯
 ### *Measuring the art of the pour.*
 
 ## Basic Details
